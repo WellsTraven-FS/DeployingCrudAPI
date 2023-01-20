@@ -1,7 +1,7 @@
 {
     "name": "apiWithClient",
     "version": "1.0.0",
-    "engine": {
+    "engines": {
         "node": "16.17.1"
     },
     "scripts": {
