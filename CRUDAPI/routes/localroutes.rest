@@ -1,0 +1,27 @@
+GET http://localhost:8000/students
+
+###
+GET http://localhost:8000/students/63c5b390b2238724d67570ef
+
+###
+POST http://localhost:8000/students
+Content-Type: application/json
+
+{
+    "name": "Dayshawn",
+    "class": "Software Engineer"
+}
+
+###
+PATCH http://localhost:8000/students/63c5c3bd57826814a1e152d6
+Content-Type: application/json
+
+{
+    "name": "Matt NEW",
+    "class": "Pharmacy NEW"
+}
+
+
+
+###
+DELETE http://localhost:8000/students/63c5c3bd57826814a1e152d6
