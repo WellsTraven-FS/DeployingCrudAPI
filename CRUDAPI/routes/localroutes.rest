@@ -1,7 +1,7 @@
 GET http://localhost:8000/students
 
 ###
-GET http://localhost:8000/students/63c5b390b2238724d67570ef
+GET http://localhost:8000/students/63ca1f7965547b948f34ce64
 
 ###
 POST http://localhost:8000/students
@@ -13,12 +13,12 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:8000/students/63c5c3bd57826814a1e152d6
+PATCH http://localhost:8000/students/63c9d48879b6e32c9c6135ad
 Content-Type: application/json
 
 {
-    "name": "Matt NEW",
-    "class": "Pharmacy NEW"
+    "name": "Time NEW",
+    "class": "Industrial NEW"
 }
 
 
